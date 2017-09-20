@@ -37,10 +37,58 @@ body {
 .station-category > a > h5 {
   margin: 5px 0px;
   padding: 10px;
-  border: 1px solid;
+  border: 1px solid #000;
 }
 
 .station-category > a {
   text-decoration: none;
   color: #000;
+}
+
+.subway {
+  position: relative;
+  width: 25%;
+}
+
+.subway:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+.subway > button {
+  position: absolute;
+  border: 1px solid #000;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  cursor: pointer;
+}
+
+.subway-options {
+  display: none;
+  border: 1px solid #000;
+  position: absolute;
+  min-width: calc(80% - 2px);
+  min-height: calc(80% - 2px);
+  z-index: 1;
+  top: 10%;
+  left: 10%;
+}
+
+.subway-options a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.subway-options a:hover { 
+  background-color: #f1f1f1; 
+}
+
+.subway:hover .subway-options {
+  display: block;
 }

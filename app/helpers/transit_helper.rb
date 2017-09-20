@@ -13,7 +13,7 @@ module TransitHelper
 
   def get_route_info(type, line)
     case type
-    when 'orange', 'blue', 'red', 'silver'
+    when 'subway'
       line = line.capitalize
     when 'green', 'boat'
       line = type.capitalize + '-' + line.upcase
