@@ -1,0 +1,72 @@
+td { 
+  padding: 5px; 
+}
+
+.title { 
+  text-transform: uppercase; 
+  margin-top: 20px; 
+  text-align: center
+}
+
+.route-info { 
+  float: left; 
+  padding: 15px; 
+}
+
+.delay { 
+  position: relative; 
+  border-radius: 6px; 
+}
+
+.delay .delay-tooltip {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  padding: 10px;
+}
+
+.delay .delay-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.delay:hover .delay-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.alert { 
+  padding: 5px; 
+  border-radius: 6px; 
+}
+
+.alert-none { 
+  background-color: #87cefa; 
+}
+
+.alert-minor { 
+  background-color: #ffd700; 
+}
+
+.alert-moderate { 
+  background-color: #ffa000; 
+}
+
+.alert-severe { 
+  background-color: #f08080; 
+}

@@ -1,0 +1,46 @@
+$red-line: #ee5030;
+$orange-line: #edca00;
+$green-line: #a0e21a; 
+$blue-line: #2da5f0; 
+$silver-line: #ccc; 
+$commuter-rail: #bb80c0; 
+$bus: #ffe8bb;
+$boat: #2970de;
+
+.red-line { background-color: $red-line; }
+.orange-line { background-color: $orange-line; }
+.green-line { background-color: $green-line; }
+.blue-line { background-color: $blue-line; }
+.silver-line { background-color: $silver-line; }
+.commuter-rail { background-color: $commuter-rail; }
+.bus { background-color: $bus; }
+.boat { background-color: $boat; }
+
+body {
+  font-family: monospace;
+}
+
+.nav-button {
+  padding: 5px;
+}
+
+.transportation { 
+  padding: 5px;
+  float: left;
+}
+
+.station-category {
+  padding: 10px;
+  float: left;
+}
+
+.station-category > a > h5 {
+  margin: 5px 0px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.station-category > a {
+  text-decoration: none;
+  color: #000;
+}

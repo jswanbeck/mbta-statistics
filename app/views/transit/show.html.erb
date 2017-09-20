@@ -1,0 +1,59 @@
+<% alert_classes = { 
+  0 => "", 
+  1 => "alert-minor delay", 
+  2 => "alert-moderate delay", 
+  3 => "alert-severe delay" 
+} %>
+
+<html>
+  <head>
+    <title>MBTA Stats</title>
+  </head>
+  
+  <body>
+    <%= get_nav_bar %>
+
+    <% route = get_route_info @line %>
+    <hr><h1 class="title"><%= route['name'] %></h1><hr>
+
+    <% route["stops"].each do |direction, stops| %>
+      <table width="50%" class="route-info">
+        <tr>
+          <th>
+            <h3 class="title"><%= direction %></h3>
+            <% stops.each do |id, stop| %>
+              <% @alert_class = alert_classes[stop["delay"]["severity"]] %> 
+              <tr><td class="<%= @alert_class %>"><%= stop["name"] %><span class='delay-tooltip'><%= stop["delay"]["message"] %></span><td></tr>
+            <% end %>
+          </th>
+        </tr>
+      </table>
+    <% end %>
+
+    <table class="route-info" width="100%">
+      <tr><th><h2 class="title">Alerts</h2></th></tr>
+      <% if route["alerts"].size == 0 %>
+        <tr><th><hr><p>No alerts at this time</p></td></tr>
+      <% end %>
+      <% route["alerts"].each do |alert| %>
+        <% case alert["severity"] 
+          when 1 %>
+          <% @class = "alert-minor" %>
+        <% when 2 %>
+          <% @class = "alert-moderate" %>
+        <% when 3 %>
+          <% @class = "alert-severe" %>
+        <% else %>
+          <% @class = "alert-none" %>
+        <% end %>
+        <tr><td>
+          <hr>
+          <p class="alert <%= @class %>"><b><%= alert['title'] %></b></p>
+          <blockquote><%= alert['header'] %></blockquote>
+          <blockquote><%= alert['description'] %></blockquote>
+        </td></tr>
+      <% end %>
+    </table>
+
+  </body>
+</html>
