@@ -4,13 +4,23 @@ require 'json'
 module TransitHelper
   @@stopsbyroute = "http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route="
   @@alertsbyroute = "http://realtime.mbta.com/developer/api/v2/alertsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&include_access_alerts=true&include_service_alerts=true&format=json&route="
+  @@predictionsbyroute = "http://realtime.mbta.com/developer/api/v2/predictionsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route="
   @@alert_levels = {
     'Minor' => 1,
     'Moderate' => 2,
     'Severe' => 3
   }
 
-  def get_route_info(line)
+  def get_route_info(type, line)
+    case type
+    when 'orange', 'blue', 'red', 'silver'
+      line = line.capitalize
+    when 'green', 'boat'
+      line = type.capitalize + '-' + line.upcase
+    when 'cr'
+      line = type.upcase + '-' + line.capitalize
+    end
+
     route = {
       'stops' => {},
       'alerts' => []
@@ -18,6 +28,8 @@ module TransitHelper
 
     stops = make_query(@@stopsbyroute + line)
     alerts = make_query(@@alertsbyroute + line)
+    predictions = make_query(@@predictionsbyroute + line)
+
     route['name'] = alerts['route_name']
 
     delays = {}
@@ -50,6 +62,23 @@ module TransitHelper
       end
     end
 
+    arrivals = {}
+    if type != 'boat'
+      predictions['direction'].each do |direction|
+        direction['trip'].each do |trip|
+          trip['stop'].each do |stop|
+            stop_id = stop['stop_id']
+            minutes = (stop['pre_away'].to_i / 60)
+            if arrivals.key?(stop_id)
+              arrivals[stop_id].append(minutes)
+            else
+              arrivals[stop_id] = [minutes]
+            end
+          end
+        end
+      end
+    end
+
     stops['direction'].each do |route_dir|
       direction = route_dir['direction_name']
       route['stops'][direction] = {}
@@ -65,8 +94,12 @@ module TransitHelper
           }
         end
 
+        arrivals[id] ||= []
+        predictions = arrivals[id][0..3].sort
+
         route['stops'][direction][id] = {
           'name' => name, 
+          'predictions' => predictions,
           'delay' => delay
         }
       end

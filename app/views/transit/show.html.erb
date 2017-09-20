@@ -6,16 +6,13 @@
 } %>
 
 <html>
-  <head>
-    <title>MBTA Stats</title>
-  </head>
-  
   <body>
     <%= get_nav_bar %>
 
-    <% route = get_route_info @line %>
-    <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    <% route = get_route_info @type, @line %>
+    <h1 class="title"><%= route['name'] %></h1>
 
+    <!-- List of stops -->
     <% route["stops"].each do |direction, stops| %>
       <table width="50%" class="route-info">
         <tr>
@@ -23,13 +20,31 @@
             <h3 class="title"><%= direction %></h3>
             <% stops.each do |id, stop| %>
               <% @alert_class = alert_classes[stop["delay"]["severity"]] %> 
-              <tr><td class="<%= @alert_class %>"><%= stop["name"] %><span class='delay-tooltip'><%= stop["delay"]["message"] %></span><td></tr>
+              <tr><td class="collapsible-list">
+                  <li>
+                    <label for="stop-<%= id %>-<%= direction %>" class="<%= @alert_class %>">
+                      <%= stop["name"] %>
+                      <span class='delay-tooltip'><%= stop["delay"]["message"] %></span>
+                    </label>
+                    <input type="checkbox" id="stop-<%= id %>-<%= direction %>" />
+                    <ul>
+                      <% if stop["predictions"].size > 0 %>
+                        <% stop["predictions"].each do |prediction| %>
+                          <li><%= prediction %> minutes</li>
+                        <% end %>
+                      <% else %>
+                        No predictions at this time
+                      <% end %>
+                    </ul>
+                  </li>
+              <td></tr>
             <% end %>
           </th>
         </tr>
       </table>
     <% end %>
 
+    <!-- List of alerts -->
     <table class="route-info" width="100%">
       <tr><th><h2 class="title">Alerts</h2></th></tr>
       <% if route["alerts"].size == 0 %>

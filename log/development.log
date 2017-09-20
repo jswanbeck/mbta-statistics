@@ -6221,3 +6221,1881 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 47ms (Views: 44.0ms)
 
 
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-19 22:54:07 -0400
+  
+LoadError (cannot load such file -- /Users/Jimmy/code/mbta-app/config/routes.rb):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:286:in `load'
+activesupport (5.1.4) lib/active_support/dependencies.rb:286:in `block in load'
+activesupport (5.1.4) lib/active_support/dependencies.rb:258:in `load_dependency'
+activesupport (5.1.4) lib/active_support/dependencies.rb:286:in `load'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:55:in `each'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:55:in `load_paths'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:18:in `reload!'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:41:in `block in updater'
+activesupport (5.1.4) lib/active_support/file_update_checker.rb:81:in `execute'
+railties (5.1.4) lib/rails/application/routes_reloader.rb:25:in `execute'
+railties (5.1.4) lib/rails/application/finisher.rb:141:in `block (2 levels) in <module:Finisher>'
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `instance_exec'
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.4) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:601:in `block (2 levels) in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `catch'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `block in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:130:in `run_callbacks'
+activesupport (5.1.4) lib/active_support/execution_wrapper.rb:108:in `run!'
+activesupport (5.1.4) lib/active_support/reloader.rb:113:in `run!'
+activesupport (5.1.4) lib/active_support/execution_wrapper.rb:70:in `block in run!'
+activesupport (5.1.4) lib/active_support/execution_wrapper.rb:67:in `tap'
+activesupport (5.1.4) lib/active_support/execution_wrapper.rb:67:in `run!'
+activesupport (5.1.4) lib/active_support/reloader.rb:59:in `run!'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:10:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2017-09-19 22:54:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2017-09-19 22:54:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-09-19 22:54:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2017-09-19 22:54:57 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 584ms (Views: 299.4ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-19 22:55:11 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (415.4ms)
+Completed 200 OK in 437ms (Views: 434.3ms)
+
+
+Started GET "/transit/742" for 127.0.0.1 at 2017-09-19 22:55:27 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"742"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (249.2ms)
+Completed 200 OK in 277ms (Views: 273.1ms)
+
+
+Started GET "/transit/orange" for 127.0.0.1 at 2017-09-19 22:56:13 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (528.5ms)
+Completed 200 OK in 582ms (Views: 579.9ms)
+
+
+Started GET "/transit/blue" for 127.0.0.1 at 2017-09-19 22:56:17 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (348.0ms)
+Completed 200 OK in 388ms (Views: 383.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-19 22:56:22 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 74ms (Views: 71.0ms)
+
+
+Started GET "/transit/22" for 127.0.0.1 at 2017-09-19 22:56:24 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"22"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (310.3ms)
+Completed 200 OK in 338ms (Views: 334.5ms)
+
+
+Started GET "/transit/cr-fitchburg" for 127.0.0.1 at 2017-09-19 22:58:11 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (370.3ms)
+Completed 200 OK in 400ms (Views: 393.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-19 23:22:11 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 09:23:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (438.6ms)
+Completed 500 Internal Server Error in 476ms
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to realtime.mbta.com:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    13:   <body>
+    14:     <%= get_nav_bar %>
+    15: 
+    16:     <% route = get_route_info @line %>
+    17:     <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    18: 
+    19:     <% route["stops"].each do |direction, stops| %>
+  
+app/helpers/transit_helper.rb:82:in `make_query'
+app/helpers/transit_helper.rb:19:in `get_route_info'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb__3972743329799670997_70347243129260'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 09:23:19 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (434.4ms)
+Completed 200 OK in 1262ms (Views: 773.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 09:23:24 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 42.0ms)
+
+
+Started GET "/transit/blue" for 127.0.0.1 at 2017-09-20 09:23:25 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (398.2ms)
+Completed 200 OK in 456ms (Views: 454.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 09:23:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 62.8ms)
+
+
+Started GET "/transit/orange" for 127.0.0.1 at 2017-09-20 09:23:33 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (745.2ms)
+Completed 200 OK in 770ms (Views: 765.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 09:23:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 56.8ms)
+
+
+Started GET "/transit/green-b" for 127.0.0.1 at 2017-09-20 09:23:37 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"green-b"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1636.7ms)
+Completed 200 OK in 1687ms (Views: 1683.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 09:23:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 82ms (Views: 79.6ms)
+
+
+Started GET "/transit/green-c" for 127.0.0.1 at 2017-09-20 09:23:41 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"green-c"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (375.6ms)
+Completed 200 OK in 419ms (Views: 417.2ms)
+
+
+Started GET "/transit/mattapan" for 127.0.0.1 at 2017-09-20 09:23:50 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"mattapan"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (562.7ms)
+Completed 200 OK in 599ms (Views: 595.8ms)
+
+
+Started GET "/transit/cr-fitchburg" for 127.0.0.1 at 2017-09-20 09:23:53 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1141.0ms)
+Completed 200 OK in 1174ms (Views: 1172.1ms)
+
+
+Started GET "/transit/cr-lowell" for 127.0.0.1 at 2017-09-20 09:24:00 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (340.8ms)
+Completed 200 OK in 361ms (Views: 358.1ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 09:57:22 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1004.1ms)
+Completed 200 OK in 1037ms (Views: 1034.4ms)
+
+
+Started GET "/transit/cr-fitchburg" for 127.0.0.1 at 2017-09-20 09:59:46 -0400
+  
+SyntaxError (/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:55: syntax error, unexpected ',', expecting =>
+/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:57: syntax error, unexpected '}', expecting keyword_end):
+  
+app/helpers/transit_helper.rb:55: syntax error, unexpected ',', expecting =>
+app/helpers/transit_helper.rb:57: syntax error, unexpected '}', expecting keyword_end
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/transit_controller.rb:1:in `<top (required)>'
+Started GET "/transit/cr-fitchburg" for 127.0.0.1 at 2017-09-20 09:59:59 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:00:12 -0400
+  Rendered transit/show.html.erb within layouts/application (28110.4ms)
+Completed 500 Internal Server Error in 28116ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `severity' for #<#<Class:0x007fd4a574a780>:0x007fd4a5748ac0>):
+    13:   <body>
+    14:     <%= get_nav_bar %>
+    15: 
+    16:     <% route = get_route_info @line %>
+    17:     <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    18: 
+    19:     <% route["stops"].each do |direction, stops| %>
+  
+app/helpers/transit_helper.rb:55:in `get_route_info'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb___3663460174333100752_70275642841100'
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (7662.1ms)
+Completed 500 Internal Server Error in 7670ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `severity' for #<#<Class:0x007fd4a957e880>:0x007fd4a957cbc0>):
+    13:   <body>
+    14:     <%= get_nav_bar %>
+    15: 
+    16:     <% route = get_route_info @line %>
+    17:     <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    18: 
+    19:     <% route["stops"].each do |direction, stops| %>
+  
+app/helpers/transit_helper.rb:55:in `get_route_info'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb___3663460174333100752_70275675453580'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:00:42 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (19724.0ms)
+Completed 500 Internal Server Error in 19967ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `severity' for #<#<Class:0x007f8704efe178>:0x007f87045fda60>):
+    13:   <body>
+    14:     <%= get_nav_bar %>
+    15: 
+    16:     <% route = get_route_info @line %>
+    17:     <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    18: 
+    19:     <% route["stops"].each do |direction, stops| %>
+  
+app/helpers/transit_helper.rb:55:in `get_route_info'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb__2491990176779796789_70108938827940'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 10:01:09 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 202ms (Views: 200.4ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:01:11 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1005.2ms)
+Completed 500 Internal Server Error in 1013ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `severity' for #<#<Class:0x007f8704efe178>:0x007f870ad2af08>):
+    13:   <body>
+    14:     <%= get_nav_bar %>
+    15: 
+    16:     <% route = get_route_info @line %>
+    17:     <hr><h1 class="title"><%= route['name'] %></h1><hr>
+    18: 
+    19:     <% route["stops"].each do |direction, stops| %>
+  
+app/helpers/transit_helper.rb:55:in `get_route_info'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb__2491990176779796789_70108989447280'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:01:21 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (846.8ms)
+Completed 200 OK in 897ms (Views: 894.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:01:52 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2513.4ms)
+Completed 200 OK in 2545ms (Views: 2540.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 10:02:04 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 65ms (Views: 62.8ms)
+
+
+Started GET "/transit/blue" for 127.0.0.1 at 2017-09-20 10:02:08 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (962.7ms)
+Completed 200 OK in 989ms (Views: 985.9ms)
+
+
+Started GET "/transit/orange" for 127.0.0.1 at 2017-09-20 10:02:36 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1426.7ms)
+Completed 200 OK in 1453ms (Views: 1449.8ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 10:59:05 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (822.1ms)
+Completed 200 OK in 848ms (Views: 845.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:43:29 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 45.1ms)
+
+
+Started GET "/transit/boat-f1" for 127.0.0.1 at 2017-09-20 12:45:00 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"boat-f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (709.9ms)
+Completed 200 OK in 736ms (Views: 732.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:45:03 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 40.2ms)
+
+
+Started GET "/transit/blue" for 127.0.0.1 at 2017-09-20 12:45:05 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:45:06 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 48.0ms)
+
+
+  Rendered transit/show.html.erb within layouts/application (1799.0ms)
+Completed 200 OK in 1822ms (Views: 1818.9ms)
+
+
+Started GET "/transit/orange" for 127.0.0.1 at 2017-09-20 12:45:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1840.5ms)
+Completed 200 OK in 1890ms (Views: 1887.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:45:10 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 66ms (Views: 62.8ms)
+
+
+Started GET "/transit/green-e" for 127.0.0.1 at 2017-09-20 12:45:11 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"green-e"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2674.6ms)
+Completed 200 OK in 2705ms (Views: 2703.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:45:16 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 68.5ms)
+
+
+Started GET "/transit/green-d" for 127.0.0.1 at 2017-09-20 12:45:17 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"green-d"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (7646.1ms)
+Completed 200 OK in 7669ms (Views: 7666.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:45:28 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 65.6ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 12:45:35 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1514.9ms)
+Completed 200 OK in 1543ms (Views: 1540.7ms)
+
+
+Started GET "/transit/15" for 127.0.0.1 at 2017-09-20 12:46:01 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"15"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1051.0ms)
+Completed 200 OK in 1077ms (Views: 1067.4ms)
+
+
+Started GET "/transit/cr-fairmount" for 127.0.0.1 at 2017-09-20 12:46:19 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-fairmount"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (661.5ms)
+Completed 200 OK in 690ms (Views: 688.0ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 12:46:23 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1170.1ms)
+Completed 200 OK in 1194ms (Views: 1191.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:50:35 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 49.1ms)
+
+
+Started GET "/transit/cr-newburyport" for 127.0.0.1 at 2017-09-20 12:50:42 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-newburyport"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3539.8ms)
+Completed 200 OK in 3563ms (Views: 3560.2ms)
+
+
+Started GET "/transit/1" for 127.0.0.1 at 2017-09-20 12:51:06 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2790.4ms)
+Completed 200 OK in 2817ms (Views: 2813.6ms)
+
+
+Started GET "/transit/7" for 127.0.0.1 at 2017-09-20 12:51:14 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (863.6ms)
+Completed 200 OK in 889ms (Views: 885.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 12:51:28 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 52.5ms)
+
+
+Started GET "/transit/741" for 127.0.0.1 at 2017-09-20 12:51:30 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"741"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2993.3ms)
+Completed 200 OK in 3021ms (Views: 3014.5ms)
+
+
+Started GET "/transit/746" for 127.0.0.1 at 2017-09-20 12:51:41 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"746"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1484.3ms)
+Completed 200 OK in 1510ms (Views: 1507.5ms)
+
+
+Started GET "/transit/751" for 127.0.0.1 at 2017-09-20 12:51:44 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"751"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1005.5ms)
+Completed 200 OK in 1028ms (Views: 1026.6ms)
+
+
+Started GET "/transit/749" for 127.0.0.1 at 2017-09-20 12:51:48 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"749"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (714.1ms)
+Completed 200 OK in 742ms (Views: 739.2ms)
+
+
+Started GET "/transit/701" for 127.0.0.1 at 2017-09-20 12:51:53 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"701"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2405.9ms)
+Completed 200 OK in 2447ms (Views: 2439.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:24:57 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (932.4ms)
+Completed 200 OK in 954ms (Views: 950.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:32:19 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (580.3ms)
+Completed 200 OK in 601ms (Views: 598.9ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:35:28 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (600.5ms)
+Completed 200 OK in 714ms (Views: 711.2ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:36:51 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2076.6ms)
+Completed 200 OK in 2094ms (Views: 2092.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:37:52 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2303.8ms)
+Completed 200 OK in 2332ms (Views: 2328.4ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:38:32 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (545.2ms)
+Completed 200 OK in 605ms (Views: 604.0ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:39:47 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (677.2ms)
+Completed 200 OK in 699ms (Views: 696.9ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:40:08 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (540.3ms)
+Completed 200 OK in 580ms (Views: 575.2ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:41:21 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1295.3ms)
+Completed 200 OK in 1361ms (Views: 1356.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:41:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1185.6ms)
+Completed 200 OK in 1249ms (Views: 1247.2ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:41:47 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (638.9ms)
+Completed 200 OK in 716ms (Views: 714.1ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:42:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1165.4ms)
+Completed 200 OK in 1236ms (Views: 1233.9ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:45:08 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (559.3ms)
+Completed 200 OK in 648ms (Views: 646.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:46:39 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (595.4ms)
+Completed 200 OK in 672ms (Views: 666.8ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:47:24 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (679.8ms)
+Completed 200 OK in 703ms (Views: 701.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:47:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (869.5ms)
+Completed 200 OK in 887ms (Views: 885.8ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:47:55 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (690.3ms)
+Completed 200 OK in 711ms (Views: 708.7ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:48:29 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (597.3ms)
+Completed 200 OK in 616ms (Views: 614.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:49:44 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1829.7ms)
+Completed 200 OK in 1849ms (Views: 1845.7ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:50:56 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (597.8ms)
+Completed 200 OK in 660ms (Views: 657.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:51:55 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1131.2ms)
+Completed 200 OK in 1153ms (Views: 1149.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:52:14 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1585.9ms)
+Completed 200 OK in 1618ms (Views: 1614.9ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:53:08 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1655.8ms)
+Completed 200 OK in 1677ms (Views: 1675.1ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:53:29 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (508.5ms)
+Completed 200 OK in 533ms (Views: 531.2ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:53:56 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (688.4ms)
+Completed 200 OK in 711ms (Views: 709.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:56:03 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2086.6ms)
+Completed 500 Internal Server Error in 2091ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:                     </label>
+    29:                     <input type="checkbox" id="stop-<%= id %>" />
+    30:                     <ul>
+    31:                       <% stop["predictions"].each do |prediction| %>
+    32:                         <li></li>
+    33:                       <% end %>
+    34:                       <hr>
+  
+app/views/transit/show.html.erb:31:in `block (2 levels) in _app_views_transit_show_html_erb__2491990176779796789_70108987935100'
+app/views/transit/show.html.erb:21:in `each'
+app/views/transit/show.html.erb:21:in `block in _app_views_transit_show_html_erb__2491990176779796789_70108987935100'
+app/views/transit/show.html.erb:16:in `each'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb__2491990176779796789_70108987935100'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:56:35 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (629.1ms)
+Completed 200 OK in 649ms (Views: 645.3ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:57:00 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (698.9ms)
+Completed 200 OK in 728ms (Views: 723.0ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:58:38 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (521.7ms)
+Completed 200 OK in 545ms (Views: 543.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 13:58:59 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1229.8ms)
+Completed 200 OK in 1261ms (Views: 1256.6ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:13:28 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1441.3ms)
+Completed 500 Internal Server Error in 1451ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb__2491990176779796789_70108941082240'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:14:42 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (888.0ms)
+Completed 500 Internal Server Error in 895ms
+
+
+  
+ActionView::Template::Error (undefined method `/' for "121":String):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:61:in `block (3 levels) in get_route_info'
+app/helpers/transit_helper.rb:59:in `each'
+app/helpers/transit_helper.rb:59:in `block (2 levels) in get_route_info'
+app/helpers/transit_helper.rb:58:in `each'
+app/helpers/transit_helper.rb:58:in `block in get_route_info'
+app/helpers/transit_helper.rb:57:in `each'
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb__2491990176779796789_70108946393520'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:15:04 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1250.2ms)
+Completed 500 Internal Server Error in 1255ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:                     </label>
+    29:                     <input type="checkbox" id="stop-<%= id %>" />
+    30:                     <ul>
+    31:                       <% stop["predictions"].each do |prediction| %>
+    32:                         <li><%= prediction %></li>
+    33:                       <% end %>
+    34:                     </ul>
+  
+app/views/transit/show.html.erb:31:in `block (2 levels) in _app_views_transit_show_html_erb__2491990176779796789_70108934309880'
+app/views/transit/show.html.erb:21:in `each'
+app/views/transit/show.html.erb:21:in `block in _app_views_transit_show_html_erb__2491990176779796789_70108934309880'
+app/views/transit/show.html.erb:16:in `each'
+app/views/transit/show.html.erb:16:in `_app_views_transit_show_html_erb__2491990176779796789_70108934309880'
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:15:48 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1003.5ms)
+Completed 200 OK in 1020ms (Views: 1018.2ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:16:23 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1629.7ms)
+Completed 200 OK in 1649ms (Views: 1647.1ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:18:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (922.2ms)
+Completed 200 OK in 946ms (Views: 941.5ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:18:21 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (977.4ms)
+Completed 200 OK in 996ms (Views: 993.4ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:22:15 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1807.1ms)
+Completed 200 OK in 1840ms (Views: 1836.7ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:23:08 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (850.5ms)
+Completed 200 OK in 867ms (Views: 865.7ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:23:22 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1292.1ms)
+Completed 200 OK in 1317ms (Views: 1313.6ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:23:38 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1113.2ms)
+Completed 200 OK in 1131ms (Views: 1128.4ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:24:38 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1091.3ms)
+Completed 200 OK in 1110ms (Views: 1108.7ms)
+
+
+Started GET "/transit/red" for 127.0.0.1 at 2017-09-20 14:24:44 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (905.2ms)
+Completed 200 OK in 925ms (Views: 922.8ms)
+
+
+Started GET "/" for 192.168.1.35 at 2017-09-20 14:26:06 -0400
+Cannot render console from 192.168.1.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/" for 192.168.43.1 at 2017-09-20 14:28:11 -0400
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+Started GET "/transit/red" for 192.168.43.1 at 2017-09-20 14:28:21 -0400
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1647.3ms)
+Completed 200 OK in 1663ms (Views: 1661.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:29:20 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 48ms (Views: 46.1ms)
+
+
+Started GET "/transit/cr-lowell" for 127.0.0.1 at 2017-09-20 14:29:22 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1313.0ms)
+Completed 500 Internal Server Error in 1320ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb__2491990176779796789_70108946727120'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:34:30 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 67ms (Views: 63.6ms)
+
+
+Started GET "/transit/742" for 127.0.0.1 at 2017-09-20 14:34:33 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"742"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 16ms
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to realtime.mbta.com:80 (getaddrinfo: nodename nor servname provided, or not known)):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:103:in `make_query'
+app/helpers/transit_helper.rb:20:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb__2491990176779796789_70108967194220'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:34:34 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 152ms (Views: 94.7ms)
+
+
+Started GET "/transit/749" for 127.0.0.1 at 2017-09-20 14:34:56 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"749"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2074.0ms)
+Completed 200 OK in 2579ms (Views: 2345.7ms)
+
+
+Started GET "/transit/cr-middleborough" for 127.0.0.1 at 2017-09-20 14:35:50 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2052.0ms)
+Completed 500 Internal Server Error in 2058ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231047703360'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:35:56 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 80ms (Views: 74.5ms)
+
+
+Started GET "/transit/23" for 127.0.0.1 at 2017-09-20 14:35:57 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"23"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1204.7ms)
+Completed 500 Internal Server Error in 1219ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:86:in `block (2 levels) in get_route_info'
+app/helpers/transit_helper.rb:74:in `each'
+app/helpers/transit_helper.rb:74:in `block in get_route_info'
+app/helpers/transit_helper.rb:71:in `each'
+app/helpers/transit_helper.rb:71:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231093138560'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:36:10 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 65ms (Views: 61.6ms)
+
+
+Started GET "/transit/57" for 127.0.0.1 at 2017-09-20 14:38:14 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"57"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (5385.2ms)
+Completed 500 Internal Server Error in 5395ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:86:in `block (2 levels) in get_route_info'
+app/helpers/transit_helper.rb:74:in `each'
+app/helpers/transit_helper.rb:74:in `block in get_route_info'
+app/helpers/transit_helper.rb:71:in `each'
+app/helpers/transit_helper.rb:71:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231050017800'
+Started GET "/transit/57" for 127.0.0.1 at 2017-09-20 14:38:48 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"57"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1835.3ms)
+Completed 200 OK in 1852ms (Views: 1850.2ms)
+
+
+Started GET "/transit/57" for 127.0.0.1 at 2017-09-20 14:39:24 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"57"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1143.5ms)
+Completed 200 OK in 1173ms (Views: 1168.2ms)
+
+
+Started GET "/transit/57" for 127.0.0.1 at 2017-09-20 14:40:12 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"57"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1356.9ms)
+Completed 200 OK in 1392ms (Views: 1387.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:40:23 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 47.3ms)
+
+
+Started GET "/transit/cr-worcester" for 127.0.0.1 at 2017-09-20 14:40:24 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"cr-worcester"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3631.6ms)
+Completed 500 Internal Server Error in 3646ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231082865220'
+Started GET "/transit/CR-worcester" for 127.0.0.1 at 2017-09-20 14:41:42 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"CR-worcester"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1285.5ms)
+Completed 500 Internal Server Error in 1291ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231060952980'
+Started GET "/transit/CR-Worcester" for 127.0.0.1 at 2017-09-20 14:41:57 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"id"=>"CR-Worcester"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (952.5ms)
+Completed 500 Internal Server Error in 957ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231060852280'
+Started GET "/transit/green/green" for 127.0.0.1 at 2017-09-20 14:46:30 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"green"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (785.9ms)
+Completed 500 Internal Server Error in 791ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:27:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231061481240'
+Started GET "/transit/green/green-b" for 127.0.0.1 at 2017-09-20 14:46:45 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"green-b"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1069.7ms)
+Completed 500 Internal Server Error in 1077ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:57:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231125531160'
+Started GET "/transit/red/red" for 127.0.0.1 at 2017-09-20 14:46:52 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"red", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3167.4ms)
+Completed 200 OK in 3190ms (Views: 3188.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:52:00 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:52:01 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.4ms)
+
+
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:52:03 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2)):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:14:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231047396900'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:53:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2)):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info [@type, @line] %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:14:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231051735120'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:53:45 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (965.4ms)
+Completed 500 Internal Server Error in 974ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:64:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231055250760'
+Started GET "/" for 127.0.0.1 at 2017-09-20 14:53:53 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 22.2ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 14:53:55 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3897.9ms)
+Completed 500 Internal Server Error in 3905ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:64:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231125679240'
+Started GET "/" for 127.0.0.1 at 2017-09-20 14:54:02 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 63ms (Views: 59.9ms)
+
+
+Started GET "/transit/bus/708" for 127.0.0.1 at 2017-09-20 14:54:04 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"708"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1047.8ms)
+Completed 200 OK in 1072ms (Views: 1069.7ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 14:54:10 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (980.2ms)
+Completed 500 Internal Server Error in 990ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:64:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231053490180'
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 14:55:15 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1202.3ms)
+Completed 200 OK in 1224ms (Views: 1222.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 14:55:28 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 40.5ms)
+
+
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:55:29 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1226.5ms)
+Completed 500 Internal Server Error in 1232ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:66:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231112056260'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:56:37 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1087.1ms)
+Completed 500 Internal Server Error in 1092ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:66:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231094473360'
+Started GET "/transit/boat/1" for 127.0.0.1 at 2017-09-20 14:56:40 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (871.8ms)
+Completed 500 Internal Server Error in 879ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:36:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231081341880'
+Started GET "/transit/boat/1" for 127.0.0.1 at 2017-09-20 14:57:32 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (903.3ms)
+Completed 500 Internal Server Error in 908ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:36:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231133428360'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:58:28 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (745.0ms)
+Completed 500 Internal Server Error in 750ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:66:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231108290980'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 14:59:17 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3379.0ms)
+Completed 500 Internal Server Error in 3386ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:38:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231117126440'
+Started GET "/transit/boat/" for 127.0.0.1 at 2017-09-20 14:59:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/transit/boat"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/transit/boat/1" for 127.0.0.1 at 2017-09-20 14:59:23 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1893.6ms)
+Completed 500 Internal Server Error in 1900ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:68:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231050115560'
+Started GET "/transit/boat/1" for 127.0.0.1 at 2017-09-20 15:02:22 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3693.2ms)
+Completed 500 Internal Server Error in 3699ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:36:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231116565720'
+Started GET "/transit/boat/f1" for 127.0.0.1 at 2017-09-20 15:02:25 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"boat", "id"=>"f1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1480.4ms)
+Completed 200 OK in 1497ms (Views: 1494.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 15:02:42 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.3ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 15:02:45 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (977.3ms)
+Completed 200 OK in 997ms (Views: 995.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 15:03:05 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 49.0ms)
+
+
+Started GET "/transit/silver/751" for 127.0.0.1 at 2017-09-20 15:03:29 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"silver", "id"=>"751"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1148.8ms)
+Completed 200 OK in 1175ms (Views: 1172.4ms)
+
+
+Started GET "/transit/bus/708" for 127.0.0.1 at 2017-09-20 15:03:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"708"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2295.2ms)
+Completed 200 OK in 2320ms (Views: 2317.5ms)
+
+
+Started GET "/transit/blue/blue" for 127.0.0.1 at 2017-09-20 15:03:42 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"blue", "id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1354.3ms)
+Completed 200 OK in 1375ms (Views: 1372.5ms)
+
+
+Started GET "/transit/orange/orange" for 127.0.0.1 at 2017-09-20 15:03:45 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"orange", "id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1489.5ms)
+Completed 200 OK in 1517ms (Views: 1514.5ms)
+
+
+Started GET "/transit/green/e" for 127.0.0.1 at 2017-09-20 15:03:49 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"e"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (5712.2ms)
+Completed 200 OK in 5737ms (Views: 5735.0ms)
+
+
+Started GET "/transit/bus/1" for 127.0.0.1 at 2017-09-20 15:04:01 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1452.4ms)
+Completed 200 OK in 1479ms (Views: 1475.3ms)
+
+
+Started GET "/transit/bus/red" for 127.0.0.1 at 2017-09-20 15:04:04 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (4079.3ms)
+Completed 500 Internal Server Error in 4088ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:   <body>
+    10:     <%= get_nav_bar %>
+    11: 
+    12:     <% route = get_route_info @type, @line %>
+    13:     <h1 class="title"><%= route['name'] %></h1>
+    14: 
+    15:     <!-- List of stops -->
+  
+app/helpers/transit_helper.rb:67:in `get_route_info'
+app/views/transit/show.html.erb:12:in `_app_views_transit_show_html_erb___2040332343775575618_70231128164140'
+Started GET "/home" for 127.0.0.1 at 2017-09-20 15:04:44 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 37.3ms)
+
+
+Started GET "/transit/bus/701" for 127.0.0.1 at 2017-09-20 15:04:46 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"701"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1128.3ms)
+Completed 200 OK in 1153ms (Views: 1151.1ms)
+
+
+Started GET "/transit/bus/1" for 127.0.0.1 at 2017-09-20 15:04:56 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (5942.4ms)
+Completed 200 OK in 5964ms (Views: 5961.8ms)
+
+
+Started GET "/transit/bus/747" for 127.0.0.1 at 2017-09-20 15:05:09 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"747"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1036.3ms)
+Completed 200 OK in 1061ms (Views: 1059.7ms)
+
+
+Started GET "/transit/bus/708" for 127.0.0.1 at 2017-09-20 15:05:12 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"708"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1063.6ms)
+Completed 200 OK in 1085ms (Views: 1083.0ms)
+
+
