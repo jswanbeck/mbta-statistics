@@ -10,7 +10,28 @@
     <%= get_nav_bar %>
 
     <% route = get_route_info @type, @line %>
-    <h1 class="title"><%= route['name'] %></h1>
+    <h1 class="title">
+      <% if @type == "bus" %>
+        <%= @type.upcase %>
+      <% end %>
+      <%= route['name'] %>
+    </h1>
+
+    <!-- Outbound trip info -->
+    <% if @type == "cr" %>
+      <% vehicles = get_outbound_vehicles @line %>
+      <% if vehicles.size > 0 %>
+        <h3 class="title">Outbound Trips</h3>
+        <table align="center">
+          <% vehicles.each do |vehicle| %>
+            <tr>
+              <td>TRIP #<%= vehicle['trip'] %>:</td>
+              <td>VEHICLE #<%= vehicle['vehicle'] %></td>
+            </tr>
+          <% end %>
+        </table>
+      <% end %>
+    <% end %>
 
     <!-- List of stops -->
     <% route["stops"].each do |direction, stops| %>

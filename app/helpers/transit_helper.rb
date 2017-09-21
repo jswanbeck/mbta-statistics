@@ -2,9 +2,10 @@ require 'net/http'
 require 'json'
 
 module TransitHelper
-  @@stopsbyroute = "http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route="
-  @@alertsbyroute = "http://realtime.mbta.com/developer/api/v2/alertsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&include_access_alerts=true&include_service_alerts=true&format=json&route="
-  @@predictionsbyroute = "http://realtime.mbta.com/developer/api/v2/predictionsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route="
+  @@stopsbyroute = 'http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
+  @@alertsbyroute = 'http://realtime.mbta.com/developer/api/v2/alertsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&include_access_alerts=true&include_service_alerts=true&format=json&route='
+  @@predictionsbyroute = 'http://realtime.mbta.com/developer/api/v2/predictionsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
+  @@vehiclesbyroute = 'http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
   @@alert_levels = {
     'Minor' => 1,
     'Moderate' => 2,
@@ -106,6 +107,25 @@ module TransitHelper
     end
 
     return route
+  end
+
+  def get_outbound_vehicles(line)
+    vehicles = make_query(@@vehiclesbyroute + 'CR-' + line.capitalize)
+    if vehicles.key?('error')
+      return []
+    end
+    outbound_vehicles = []
+    vehicles['direction'].each do |direction|
+      if direction['direction_id'] == '0'
+        direction['trip'].each do |trip|
+          outbound_vehicles.append({
+            'trip' => trip['trip_name'],
+            'vehicle' => trip['vehicle']['vehicle_label']
+          })
+        end
+      end
+    end
+    return outbound_vehicles
   end
 
   private

@@ -9168,3 +9168,780 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 21ms (Views: 18.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-20 18:51:18 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 24ms (Views: 22.4ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 18:51:43 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (619.9ms)
+Completed 200 OK in 638ms (Views: 636.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 18:52:25 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 45.8ms)
+
+
+Started GET "/transit/green/c" for 127.0.0.1 at 2017-09-20 19:28:54 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"c"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1041.0ms)
+Completed 200 OK in 1068ms (Views: 1064.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:29:00 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 50ms (Views: 47.0ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 19:29:02 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (635.3ms)
+Completed 200 OK in 660ms (Views: 658.0ms)
+
+
+Started GET "/transit/subway/blue" for 127.0.0.1 at 2017-09-20 19:29:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (603.3ms)
+Completed 200 OK in 626ms (Views: 623.3ms)
+
+
+Started GET "/transit/subway/orange" for 127.0.0.1 at 2017-09-20 19:29:09 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1367.5ms)
+Completed 200 OK in 1388ms (Views: 1384.2ms)
+
+
+Started GET "/transit/subway/mattapan" for 127.0.0.1 at 2017-09-20 19:29:13 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"mattapan"}
+  Rendering transit/show.html.erb within layouts/application
+Started GET "/transit/subway/transit/subway/mattapan" for 127.0.0.1 at 2017-09-20 19:29:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/transit/subway/transit/subway/mattapan"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered transit/show.html.erb within layouts/application (516.6ms)
+Completed 200 OK in 538ms (Views: 534.8ms)
+
+
+Started GET "/transit/subway/mattapan" for 127.0.0.1 at 2017-09-20 19:29:15 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"mattapan"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (482.7ms)
+Completed 200 OK in 517ms (Views: 508.0ms)
+
+
+Started GET "/transit/subway/mattapan" for 127.0.0.1 at 2017-09-20 19:29:15 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"mattapan"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (808.7ms)
+Completed 200 OK in 830ms (Views: 827.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:29:20 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 41.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:40:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 26ms (Views: 24.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:41:13 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 29.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:47:57 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 19.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:48:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 77ms (Views: 75.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:49:13 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 24.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:49:30 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:50:50 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 83ms (Views: 80.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 19:51:03 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 75ms (Views: 71.9ms)
+
+
+Started GET "/transit/green/b" for 127.0.0.1 at 2017-09-20 19:52:20 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"b"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (573.3ms)
+Completed 200 OK in 595ms (Views: 592.9ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 19:52:31 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (591.6ms)
+Completed 200 OK in 622ms (Views: 616.1ms)
+
+
+Started GET "/" for 10.0.0.118 at 2017-09-20 19:53:19 -0400
+Cannot render console from 10.0.0.118! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms)
+
+
+Started GET "/transit/green/b" for 10.0.0.118 at 2017-09-20 19:53:47 -0400
+Cannot render console from 10.0.0.118! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"b"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (2755.3ms)
+Completed 200 OK in 2772ms (Views: 2770.6ms)
+
+
+Started GET "/transit/cr/middleborough" for 10.0.0.118 at 2017-09-20 19:54:20 -0400
+Cannot render console from 10.0.0.118! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (406.8ms)
+Completed 200 OK in 429ms (Views: 427.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:00:16 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 51ms (Views: 45.5ms)
+
+
+Started GET "/transit/bus/1" for 127.0.0.1 at 2017-09-20 20:11:58 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (585.6ms)
+Completed 200 OK in 614ms (Views: 611.7ms)
+
+
+Started GET "/transit/bus/1" for 127.0.0.1 at 2017-09-20 20:13:30 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (546.3ms)
+Completed 200 OK in 572ms (Views: 570.4ms)
+
+
+Started GET "/transit/bus/1" for 127.0.0.1 at 2017-09-20 20:14:22 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"1"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (657.8ms)
+Completed 200 OK in 679ms (Views: 677.8ms)
+
+
+Started GET "/transit/bus/73" for 127.0.0.1 at 2017-09-20 20:14:26 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"73"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (607.6ms)
+Completed 200 OK in 627ms (Views: 625.5ms)
+
+
+Started GET "/transit/bus/708" for 127.0.0.1 at 2017-09-20 20:14:44 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"708"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (493.4ms)
+Completed 200 OK in 515ms (Views: 513.6ms)
+
+
+Started GET "/transit/bus/708" for 127.0.0.1 at 2017-09-20 20:15:03 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"708"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (491.0ms)
+Completed 200 OK in 516ms (Views: 512.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:15:07 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 35.8ms)
+
+
+Started GET "/transit/bus/15" for 127.0.0.1 at 2017-09-20 20:15:12 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"bus", "id"=>"15"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1161.8ms)
+Completed 200 OK in 1185ms (Views: 1182.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:15:19 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 63ms (Views: 56.5ms)
+
+
+Started GET "/transit/subway/741" for 127.0.0.1 at 2017-09-20 20:15:20 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"741"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (466.7ms)
+Completed 200 OK in 495ms (Views: 492.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:15:26 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 56ms (Views: 53.7ms)
+
+
+Started GET "/transit/green/c" for 127.0.0.1 at 2017-09-20 20:15:28 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"green", "id"=>"c"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (529.9ms)
+Completed 200 OK in 558ms (Views: 556.1ms)
+
+
+Started GET "/transit/subway/orange" for 127.0.0.1 at 2017-09-20 20:15:32 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"orange"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1037.2ms)
+Completed 200 OK in 1071ms (Views: 1068.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:15:49 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 72ms (Views: 69.1ms)
+
+
+Started GET "/transit/subway/blue" for 127.0.0.1 at 2017-09-20 20:15:51 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"blue"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (3769.9ms)
+Completed 200 OK in 3809ms (Views: 3804.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:15:58 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 51ms (Views: 49.7ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 20:16:00 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (697.1ms)
+Completed 200 OK in 725ms (Views: 721.9ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 20:18:16 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (740.5ms)
+Completed 200 OK in 765ms (Views: 763.0ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 20:18:20 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1246.2ms)
+Completed 200 OK in 1277ms (Views: 1273.1ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 20:18:23 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1200.5ms)
+Completed 200 OK in 1223ms (Views: 1221.9ms)
+
+
+Started GET "/transit/subway/red" for 127.0.0.1 at 2017-09-20 20:18:27 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"subway", "id"=>"red"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (691.6ms)
+Completed 200 OK in 714ms (Views: 711.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:19:08 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 40ms (Views: 37.0ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 20:19:55 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (802.3ms)
+Completed 200 OK in 826ms (Views: 822.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:20:33 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 51ms (Views: 49.0ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 20:20:49 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (446.8ms)
+Completed 200 OK in 469ms (Views: 466.2ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 20:23:43 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (606.2ms)
+Completed 200 OK in 625ms (Views: 623.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:40:53 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 20:48:35 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 29.4ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:48:38 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (625.7ms)
+Completed 500 Internal Server Error in 632ms
+
+
+  
+ActionView::Template::Error (undefined method `get_outbound_trips' for #<#<Class:0x007fbfe77abd78>:0x007fbfe77a9f78>
+Did you mean?  get_outbound_vehicle):
+    19: 
+    20:     <!-- Outbound trip info -->
+    21:     <% if @type == "cr" %>
+    22:       <% outboundtrips = get_outbound_trips @line %>
+    23:       <h3 class="title">Outbound Trips</h3>
+    24:       <table>
+    25:         <tr>
+  
+app/views/transit/show.html.erb:22:in `_app_views_transit_show_html_erb___2040332343775575618_70231099556700'
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:49:18 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (959.4ms)
+Completed 200 OK in 987ms (Views: 985.2ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:49:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (640.4ms)
+Completed 200 OK in 662ms (Views: 660.1ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:58:27 -0400
+  
+SyntaxError (/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:121: syntax error, unexpected tSTRING_BEG, expecting '}'
+            'vehicle_label' => trip['vehicle']['vehicle_label']
+             ^
+/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:121: syntax error, unexpected =>, expecting keyword_end
+            'vehicle_label' => trip['vehicle']['vehicle_label']
+                              ^
+/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:122: syntax error, unexpected '}', expecting keyword_end
+          })
+           ^
+/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:138: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/helpers/transit_helper.rb:121: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/helpers/transit_helper.rb:121: syntax error, unexpected =>, expecting keyword_end
+app/helpers/transit_helper.rb:122: syntax error, unexpected '}', expecting keyword_end
+app/helpers/transit_helper.rb:138: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/transit_controller.rb:1:in `<top (required)>'
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:58:40 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (596.7ms)
+Completed 200 OK in 618ms (Views: 616.2ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:59:00 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (591.5ms)
+Completed 200 OK in 616ms (Views: 614.5ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:59:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (574.1ms)
+Completed 200 OK in 613ms (Views: 608.3ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 20:59:30 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (515.8ms)
+Completed 200 OK in 538ms (Views: 536.1ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:00:19 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (613.4ms)
+Completed 200 OK in 636ms (Views: 634.4ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:00:58 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (577.9ms)
+Completed 200 OK in 597ms (Views: 595.0ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:07:06 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (755.4ms)
+Completed 200 OK in 776ms (Views: 772.5ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:07:34 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (607.1ms)
+Completed 200 OK in 633ms (Views: 630.9ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:07:53 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (540.4ms)
+Completed 200 OK in 561ms (Views: 559.2ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:08:16 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (795.3ms)
+Completed 200 OK in 818ms (Views: 814.0ms)
+
+
+Started GET "/transit/cr/fitchburg" for 127.0.0.1 at 2017-09-20 21:08:38 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"fitchburg"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (931.5ms)
+Completed 200 OK in 953ms (Views: 951.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 21:08:54 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 41ms (Views: 38.5ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 21:08:55 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (621.7ms)
+Completed 200 OK in 654ms (Views: 652.1ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 21:09:40 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (567.2ms)
+Completed 200 OK in 586ms (Views: 583.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 21:09:55 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 46ms (Views: 43.5ms)
+
+
+Started GET "/transit/cr/worcester" for 127.0.0.1 at 2017-09-20 21:09:57 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"worcester"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (690.0ms)
+Completed 200 OK in 707ms (Views: 705.6ms)
+
+
+Started GET "/transit/cr/needham" for 127.0.0.1 at 2017-09-20 21:10:06 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"needham"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (666.3ms)
+Completed 200 OK in 686ms (Views: 684.6ms)
+
+
+Started GET "/transit/cr/franklin" for 127.0.0.1 at 2017-09-20 21:10:09 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"franklin"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (530.9ms)
+Completed 200 OK in 556ms (Views: 553.3ms)
+
+
+Started GET "/transit/cr/providence" for 127.0.0.1 at 2017-09-20 21:10:12 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"providence"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (509.2ms)
+Completed 200 OK in 538ms (Views: 536.3ms)
+
+
+Started GET "/transit/cr/haverhill" for 127.0.0.1 at 2017-09-20 21:10:15 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"haverhill"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (685.3ms)
+Completed 200 OK in 711ms (Views: 707.5ms)
+
+
+Started GET "/transit/cr/newburyport" for 127.0.0.1 at 2017-09-20 21:10:18 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"newburyport"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (649.9ms)
+Completed 200 OK in 669ms (Views: 666.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 21:11:14 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 66ms (Views: 64.3ms)
+
+
+Started GET "/transit/cr/haverhill" for 127.0.0.1 at 2017-09-20 21:11:16 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"haverhill"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (623.6ms)
+Completed 200 OK in 725ms (Views: 721.1ms)
+
+
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:11:18 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (838.8ms)
+Completed 500 Internal Server Error in 851ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    19: 
+    20:     <!-- Outbound trip info -->
+    21:     <% if @type == "cr" %>
+    22:       <% vehicles = get_outbound_vehicles @line %>
+    23:       <h3 class="title">Outbound Trips</h3>
+    24:       <table align="center">
+    25:         <% vehicles.each do |vehicle| %>
+  
+app/helpers/transit_helper.rb:115:in `get_outbound_vehicles'
+app/views/transit/show.html.erb:22:in `_app_views_transit_show_html_erb___2040332343775575618_70231079061780'
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:17:25 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (806.4ms)
+Completed 500 Internal Server Error in 811ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    19: 
+    20:     <!-- Outbound trip info -->
+    21:     <% if @type == "cr" %>
+    22:       <% vehicles = get_outbound_vehicles @line %>
+    23:       <h3 class="title">Outbound Trips</h3>
+    24:       <table align="center">
+    25:         <% vehicles.each do |vehicle| %>
+  
+app/helpers/transit_helper.rb:119:in `get_outbound_vehicles'
+app/views/transit/show.html.erb:22:in `_app_views_transit_show_html_erb___2040332343775575618_70231098999140'
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:19:45 -0400
+  
+SyntaxError (/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:114: syntax error, unexpected '?', expecting '('
+    if vehicles.?key('error')
+                 ^
+/Users/Jimmy/code/mbta-statistics/app/helpers/transit_helper.rb:140: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/helpers/transit_helper.rb:114: syntax error, unexpected '?', expecting '('
+app/helpers/transit_helper.rb:140: syntax error, unexpected keyword_end, expecting end-of-input
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/transit_controller.rb:1:in `<top (required)>'
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:20:16 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (1065.5ms)
+Completed 200 OK in 1091ms (Views: 1089.2ms)
+
+
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:21:12 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (481.9ms)
+Completed 200 OK in 507ms (Views: 505.2ms)
+
+
+Started GET "/transit/cr/middleborough" for 127.0.0.1 at 2017-09-20 21:22:07 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"middleborough"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (739.0ms)
+Completed 200 OK in 757ms (Views: 756.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-09-20 21:22:11 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 35ms (Views: 33.2ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 21:22:14 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (558.8ms)
+Completed 200 OK in 585ms (Views: 582.7ms)
+
+
+Started GET "/transit/cr/lowell" for 127.0.0.1 at 2017-09-20 21:23:19 -0400
+Processing by TransitController#show as HTML
+  Parameters: {"type"=>"cr", "id"=>"lowell"}
+  Rendering transit/show.html.erb within layouts/application
+  Rendered transit/show.html.erb within layouts/application (586.5ms)
+Completed 200 OK in 620ms (Views: 618.7ms)
+
+

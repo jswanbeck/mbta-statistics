@@ -1,129 +1,129 @@
 <html>
   <body>
     <h1 align="center"><%= image_tag("mbta.png", :width => "5%") %><br><span>MBTA STATISTICS</span></h1>
+    <div style="text-align:center;">
+      <div style="width:75%" class="transportation">
+        <h2 align="center">Subway</h2>
+        <hr>
+        <table style="width:100%;">
+          <tr>
+            <td class="subway">
+              <button class="green-line"></button>
+              <div class="green-line subway-options">
+                <a href="transit/green/b">B Branch</a>
+                <a href="transit/green/c">C Branch</a>
+                <a href="transit/green/d">D Branch</a>
+                <a href="transit/green/e">E Branch</a>
+              </div>
+            </td>
+            <td class="subway">
+              <button class="orange-line"></button>
+              <div class="orange-line subway-options">
+                <a href="transit/subway/orange">Orange Line</a>
+              </div>
+            </td>
+            <td class="subway">
+              <button class="blue-line"></button>
+              <div class="blue-line subway-options">
+                <a href="transit/subway/blue">Blue Line</a>
+              </div>
+            </td>
+            <td class="subway">
+              <button class="red-line"></button>
+              <div class="red-line subway-options">
+                <a href="transit/subway/red">Red Line</a>
+                <a href="transit/subway/mattapan">Mattapan<br>Trolley</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
 
-    <div style="width:75%;">
-      <h2 align="center">Subway</h2>
-      <hr>
-      <table style="width:100%;text-align:center;margin:0 auto;">
-        <tr>
-          <td class="subway">
-            <button class="green-line"></button>
-            <div class="green-line subway-options">
-              <a href="transit/green/b">B Branch</a>
-              <a href="transit/green/c">C Branch</a>
-              <a href="transit/green/d">D Branch</a>
-              <a href="transit/green/e">E Branch</a>
-            </div>
-          </td>
-          <td class="subway">
-            <button class="orange-line"></button>
-            <div class="orange-line subway-options">
-              <a href="transit/subway/orange">Orange Line</a>
-            </div>
-          </td>
-          <td class="subway">
-            <button class="blue-line"></button>
-            <div class="blue-line subway-options">
-              <a href="transit/subway/blue">Blue Line</a>
-            </div>
-          </td>
-          <td class="subway">
-            <button class="red-line"></button>
-            <div class="red-line subway-options">
-              <a href="transit/subway/red">Red Line</a>
-              <a href="transit/subway/mattapan">Mattapan<br>Trolley</a>
-            </div>
-          </td>
-        </tr>
-      </table>
+  <!--
+      <div class="transportation">
+        <h2 align="center">Subway</h2>
+        <hr>
+        <div class="station-category">
+          <a href="transit/green/b"><h5 class="green-line">Green Line - B</h5></a>
+          <a href="transit/green/c"><h5 class="green-line">Green Line - C</h5></a>
+          <a href="transit/green/d"><h5 class="green-line">Green Line - D</h5></a>
+          <a href="transit/green/e"><h5 class="green-line">Green Line - E</h5></a>
+          <a href="transit/subway/orange"><h5 class="orange-line">Orange Line</h5></a>
+          <a href="transit/subway/blue"><h5 class="blue-line">Blue Line</h5></a>
+          <a href="transit/subway/red"><h5 class="red-line">Red Line</h5></a>
+          <a href="transit/subway/mattapan"><h5 class="red-line">Mattapan Trolley</h5></a>
+        </div>
+      </div>
+    -->
+
+      <div class="transportation">
+        <h2 align="center">Commuter Rail</h2>
+        <hr>
+        <div class="station-category">
+          <h3 align="center">North Station</h3>
+          <a href="transit/cr/fitchburg"><h5 class="commuter-rail">Fitchburg Line</h5></a>
+          <a href="transit/cr/lowell"><h5 class="commuter-rail">Lowell Line</h5></a>
+          <a href="transit/cr/haverhill"><h5 class="commuter-rail">Haverhill Line</h5></a>
+          <a href="transit/cr/newburyport"><h5 class="commuter-rail">Newburyport / Rockport Line</h5></a>
+        </div>
+        <div class="station-category">
+          <h3 align="center">South Station</h3>
+          <a href="transit/cr/worcester"><h5 class="commuter-rail">Framingham / Worcester Line</h5></a>
+          <a href="transit/cr/needham"><h5 class="commuter-rail">Needham Line</h5></a>
+          <a href="transit/cr/franklin"><h5 class="commuter-rail">Franklin Line</h5></a>
+          <a href="transit/cr/providence"><h5 class="commuter-rail">Providence / Stoughton Line</h5></a>
+          <a href="transit/cr/middleborough"><h5 class="commuter-rail">Middleboro / Lakeville Line</h5></a>
+          <a href="transit/cr/kingston"><h5 class="commuter-rail">Kingston / Plymouth Line</h5></a>
+          <a href="transit/cr/greenbush"><h5 class="commuter-rail">Greenbush Line</h5></a>
+          <a href="transit/cr/fairmount"><h5 class="commuter-rail">Fairmount Line</h5></a>
+        </div>
+      </div>
+
+      <div class="transportation">
+        <h2 align="center">Bus</h2>
+        <hr>
+        <div class="station-category">
+          <h3 align="center">Crosstown</h3>
+          <a href="transit/bus/701"><h5 class="bus">CT1</h5></a>
+          <a href="transit/bus/747"><h5 class="bus">CT2</h5></a>
+          <a href="transit/bus/708"><h5 class="bus">CT3</h5></a>
+        </div>
+        <div class="station-category">
+          <h3 align="center">Key Routes</h3>
+          <a href="transit/bus/1"><h5 class="bus">1</h5></a>
+          <a href="transit/bus/15"><h5 class="bus">15</h5></a>
+          <a href="transit/bus/22"><h5 class="bus">22</h5></a>
+          <a href="transit/bus/23"><h5 class="bus">23</h5></a>
+          <a href="transit/bus/28"><h5 class="bus">28</h5></a>
+          <a href="transit/bus/32"><h5 class="bus">32</h5></a>
+          <a href="transit/bus/39"><h5 class="bus">39</h5></a>
+          <a href="transit/bus/57"><h5 class="bus">57</h5></a>
+          <a href="transit/bus/66"><h5 class="bus">66</h5></a>
+          <a href="transit/bus/71"><h5 class="bus">71</h5></a>
+          <a href="transit/bus/73"><h5 class="bus">73</h5></a>
+          <a href="transit/bus/77"><h5 class="bus">77</h5></a>
+          <a href="transit/bus/111"><h5 class="bus">111</h5></a>
+          <a href="transit/bus/116117"><h5 class="bus">116 / 117</h5></a>
+        </div>
+      </div>
+
+      <div class="transportation">
+        <h2 align="center">Other</h2>
+        <hr>
+        <div class="station-category">
+          <h3 align="center">Silver Line</h3>
+          <a href="transit/subway/741"><h5 class="silver-line">Silver Line SL1</h5></a>
+          <a href="transit/subway/742"><h5 class="silver-line">Silver Line SL2</h5></a>
+          <a href="transit/subway/746"><h5 class="silver-line">Silver Line Waterfront</h5></a>
+          <a href="transit/subway/751"><h5 class="silver-line">Silver Line SL4</h5></a>
+          <a href="transit/subway/749"><h5 class="silver-line">Silver Line SL5</h5></a>
+        </div>
+        <div class="station-category">
+          <h3 align="center">Boat</h3>
+          <a href="transit/boat/f1"><h5 class="boat">Charlestown Ferry</h5></a>
+          <a href="transit/boat/f4"><h5 class="boat">Hingham / Hull Ferry</h5></a>
+        </div>
+      </div>
     </div>
-
-<!--
-    <div class="transportation">
-      <h2 align="center">Subway</h2>
-      <hr>
-      <div class="station-category">
-        <a href="transit/green/b"><h5 class="green-line">Green Line - B</h5></a>
-        <a href="transit/green/c"><h5 class="green-line">Green Line - C</h5></a>
-        <a href="transit/green/d"><h5 class="green-line">Green Line - D</h5></a>
-        <a href="transit/green/e"><h5 class="green-line">Green Line - E</h5></a>
-        <a href="transit/subway/orange"><h5 class="orange-line">Orange Line</h5></a>
-        <a href="transit/subway/blue"><h5 class="blue-line">Blue Line</h5></a>
-        <a href="transit/subway/red"><h5 class="red-line">Red Line</h5></a>
-        <a href="transit/subway/mattapan"><h5 class="red-line">Mattapan Trolley</h5></a>
-      </div>
-    </div>
-  -->
-
-    <div class="transportation">
-      <h2 align="center">Commuter Rail</h2>
-      <hr>
-      <div class="station-category">
-        <h3 align="center">North Station</h3>
-        <a href="transit/cr/fitchburg"><h5 class="commuter-rail">Fitchburg Line</h5></a>
-        <a href="transit/cr/lowell"><h5 class="commuter-rail">Lowell Line</h5></a>
-        <a href="transit/cr/haverhill"><h5 class="commuter-rail">Haverhill Line</h5></a>
-        <a href="transit/cr/newburyport"><h5 class="commuter-rail">Newburyport / Rockport Line</h5></a>
-      </div>
-      <div class="station-category">
-        <h3 align="center">South Station</h3>
-        <a href="transit/cr/worcester"><h5 class="commuter-rail">Framingham / Worcester Line</h5></a>
-        <a href="transit/cr/needham"><h5 class="commuter-rail">Needham Line</h5></a>
-        <a href="transit/cr/franklin"><h5 class="commuter-rail">Franklin Line</h5></a>
-        <a href="transit/cr/providence"><h5 class="commuter-rail">Providence / Stoughton Line</h5></a>
-        <a href="transit/cr/middleborough"><h5 class="commuter-rail">Middleboro / Lakeville Line</h5></a>
-        <a href="transit/cr/kingston"><h5 class="commuter-rail">Kingston / Plymouth Line</h5></a>
-        <a href="transit/cr/greenbush"><h5 class="commuter-rail">Greenbush Line</h5></a>
-        <a href="transit/cr/fairmount"><h5 class="commuter-rail">Fairmount Line</h5></a>
-      </div>
-    </div>
-
-    <div class="transportation">
-      <h2 align="center">Bus</h2>
-      <hr>
-      <div class="station-category">
-        <h3 align="center">Crosstown</h3>
-        <a href="transit/bus/701"><h5 class="bus">CT1</h5></a>
-        <a href="transit/bus/747"><h5 class="bus">CT2</h5></a>
-        <a href="transit/bus/708"><h5 class="bus">CT3</h5></a>
-      </div>
-      <div class="station-category">
-        <h3 align="center">Key Routes</h3>
-        <a href="transit/bus/1"><h5 class="bus">1</h5></a>
-        <a href="transit/bus/15"><h5 class="bus">15</h5></a>
-        <a href="transit/bus/22"><h5 class="bus">22</h5></a>
-        <a href="transit/bus/23"><h5 class="bus">23</h5></a>
-        <a href="transit/bus/28"><h5 class="bus">28</h5></a>
-        <a href="transit/bus/32"><h5 class="bus">32</h5></a>
-        <a href="transit/bus/39"><h5 class="bus">39</h5></a>
-        <a href="transit/bus/57"><h5 class="bus">57</h5></a>
-        <a href="transit/bus/66"><h5 class="bus">66</h5></a>
-        <a href="transit/bus/71"><h5 class="bus">71</h5></a>
-        <a href="transit/bus/73"><h5 class="bus">73</h5></a>
-        <a href="transit/bus/77"><h5 class="bus">77</h5></a>
-        <a href="transit/bus/111"><h5 class="bus">111</h5></a>
-        <a href="transit/bus/116117"><h5 class="bus">116 / 117</h5></a>
-      </div>
-    </div>
-
-    <div class="transportation">
-      <h2 align="center">Other</h2>
-      <hr>
-      <div class="station-category">
-        <h3 align="center">Silver Line</h3>
-        <a href="transit/subway/741"><h5 class="silver-line">Silver Line SL1</h5></a>
-        <a href="transit/subway/742"><h5 class="silver-line">Silver Line SL2</h5></a>
-        <a href="transit/subway/746"><h5 class="silver-line">Silver Line Waterfront</h5></a>
-        <a href="transit/subway/751"><h5 class="silver-line">Silver Line SL4</h5></a>
-        <a href="transit/subway/749"><h5 class="silver-line">Silver Line SL5</h5></a>
-      </div>
-      <div class="station-category">
-        <h3 align="center">Boat</h3>
-        <a href="transit/boat/f1"><h5 class="boat">Charlestown Ferry</h5></a>
-        <a href="transit/boat/f4"><h5 class="boat">Hingham / Hull Ferry</h5></a>
-      </div>
-    </div>
-
   </body>
 </html>
