@@ -2,10 +2,11 @@ require 'net/http'
 require 'json'
 
 module TransitHelper
-  @@stopsbyroute = 'http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
-  @@alertsbyroute = 'http://realtime.mbta.com/developer/api/v2/alertsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&include_access_alerts=true&include_service_alerts=true&format=json&route='
-  @@predictionsbyroute = 'http://realtime.mbta.com/developer/api/v2/predictionsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
-  @@vehiclesbyroute = 'http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route='
+  @@api_key = 'Fve_8AOV-k-eByzz8gtfnQ'
+  @@stopsbyroute = 'http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=' + @@api_key + '&format=json&route='
+  @@alertsbyroute = 'http://realtime.mbta.com/developer/api/v2/alertsbyroute?api_key=' + @@api_key + '&include_access_alerts=true&include_service_alerts=true&format=json&route='
+  @@predictionsbyroute = 'http://realtime.mbta.com/developer/api/v2/predictionsbyroute?api_key=' + @@api_key + '&format=json&route='
+  @@vehiclesbyroute = 'http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=' + @@api_key + '&format=json&route='
   @@alert_levels = {
     'Minor' => 1,
     'Moderate' => 2,
