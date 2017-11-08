@@ -44,17 +44,17 @@
               <tr><td class="collapsible-list">
                   <li>
                     <label for="stop-<%= id %>-<%= direction %>" class="<%= @alert_class %>">
-                      <%= stop["name"] %>
+                      <span><%= stop["name"] %></span>
                       <span class='delay-tooltip'><%= stop["delay"]["message"] %></span>
                     </label>
                     <input type="checkbox" id="stop-<%= id %>-<%= direction %>" />
-                    <ul>
+                    <ul class="prediction-values">
                       <% if stop["predictions"].size > 0 %>
                         <% stop["predictions"].each do |prediction| %>
-                          <li><%= prediction %> minutes</li>
+                          <li class="prediction-value" data-value="<%= prediction %>" />
                         <% end %>
                       <% else %>
-                        No predictions at this time
+                        No predictions at this time.
                       <% end %>
                     </ul>
                   </li>
