@@ -51,7 +51,7 @@
                     <ul class="prediction-values">
                       <% if stop["predictions"].size > 0 %>
                         <% stop["predictions"].each do |prediction| %>
-                          <li class="prediction-value" data-value="<%= prediction %>" />
+                            <li class="prediction-value" data-value="<%= prediction %>"><%= prediction %> minute<% if prediction != 1 %>s<% end %></li>
                         <% end %>
                       <% else %>
                         No predictions at this time.
